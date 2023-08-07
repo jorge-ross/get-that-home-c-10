@@ -92,7 +92,7 @@ const LandlordSignUp = () => {
         <SimpleContainer>
           <Label>password</Label>
           <InputBody>
-            <MainInput placeholder="******"value={password} name="password" type="password" onChange={(e)=>{handleChange(e)}}/>
+            <MainInput placeholder="******"value={password} type="password" name="password" onChange={(e)=>{handleChange(e)}}/>
           </InputBody>
           <SimpleText TextColor={"#8E8E8E"}>At least 6 characteres</SimpleText>
         </SimpleContainer>
